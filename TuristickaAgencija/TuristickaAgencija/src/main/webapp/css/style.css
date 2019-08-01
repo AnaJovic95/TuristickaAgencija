@@ -1,0 +1,38 @@
+body{
+	margin: auto;
+  	width: 20%;
+  	padding: 150px;	
+  	background-image: url("https://dwtr67e3ikfml.cloudfront.net/bookCovers/d21a6c53d666e94fbfd78e04b2d88a6f10886453");
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 100%; 
+}
+a:link, a:visited {
+  background-color: #00BFFF;
+  color: white;
+  padding: 10px 20px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+  width: 220px;
+  margin:5px;
+ 
+}
+
+a:hover, a:active {
+  background-color: #4169E1;
+}
+
+input[type=text] , input[type=password]{
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 150px;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+
